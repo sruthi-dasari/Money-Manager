@@ -1,0 +1,121 @@
+.app-container {
+  padding: 30px;
+}
+
+.upper-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.name-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.subtitle-text {
+  color: #475569;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.blue-text {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #0b69ff;
+}
+
+.moneyDetails-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs-container {
+  padding: 10px;
+  border: solid #d7dfe9 1px;
+  border-radius: 10px;
+  max-width: 180px;
+}
+
+.transaction-container-title {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.input-heading {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #7e858e;
+  margin-bottom: 5px;
+}
+
+.input-box {
+  width: 140px;
+  font-size: 11px;
+  padding: 5px;
+  color: #475569;
+}
+
+.type-input {
+  margin-bottom: 5px;
+  width: 140px;
+  padding: 5px;
+  font-size: 9px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.history-container {
+  padding: 10px;
+  border: solid #d7dfe9 1px;
+  border-radius: 10px;
+  min-width: 240px;
+}
+
+.history-container-title {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.separator {
+  color: #ffffff;
+  margin: 1px;
+}
+
+.history-inputs-title-container {
+  display: flex;
+  align-items: center;
+  border: solid #d7dfe9 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.history-title {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 700;
+  width: 50px;
+}

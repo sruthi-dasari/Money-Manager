@@ -1,0 +1,30 @@
+.list-item-container {
+  display: flex;
+  align-items: center;
+  border: solid #d7dfe9 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.history-text {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-weight: 700;
+  width: 50px;
+}
+
+.separator {
+  color: #ffffff;
+  margin: 1px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+}
+
+.delete-icon {
+  height: 15px;
+  width: 15px;
+}

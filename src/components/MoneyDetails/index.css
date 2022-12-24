@@ -1,0 +1,43 @@
+.card {
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.balance-card {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 7px;
+}
+
+.card-title {
+  font-size: 8px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-bottom: 0px;
+}
+
+.amount-text {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-top: 3px;
+}
+
+.income-card {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.expenses-card {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
