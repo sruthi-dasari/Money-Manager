@@ -13,20 +13,16 @@ const TransactionItem = props => {
     <li className="list-item-container">
       <p className="history-text">{title}</p>
       <hr className="separator" />
-      <p className="history-text">{amount}</p>
+      <p className="history-text">Rs {amount}</p>
       <hr className="separator" />
       <p className="history-text">{type}</p>
       <hr className="separator" />
-      <button
-        className="delete-btn"
-        type="button"
-        onClick={onClickDelete}
-        testid="delete"
-      >
+      <button className="delete-btn" type="button" onClick={onClickDelete}>
         <img
           className="delete-icon"
           src="https://assets.ccbp.in/frontend/react-js/money-manager/delete.png"
           alt="delete"
+          testid="delete"
         />
       </button>
     </li>
@@ -35,4 +31,4 @@ const TransactionItem = props => {
 
 export default TransactionItem
 
-//
+// testid="delete"
